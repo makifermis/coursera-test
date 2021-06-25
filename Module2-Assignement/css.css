@@ -1,0 +1,218 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-family: Arial;
+  text-align: center;
+  color: black;
+  
+}
+
+p {
+  border: 1px solid black;
+  background-color: grey;
+  width: 100%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+
+.section { 
+  background-color: rgb(150, 150, 150);
+  border: 2px solid black;
+  margin-top: 20px; 
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 3px;
+  text-align: justify;
+  position: relative;
+  
+}
+span {
+  font-size: 18px;
+  width: 100px;
+  border: 1px solid black;
+  font-weight: bold;
+  text-align: center;
+  float: right; top :0; right: 0; margin: 0;
+  position: absolute;
+}
+#p1 {
+  background-color: blue;
+}
+#p2 {
+  background-color: darkred;
+}
+#p3 {
+  background-color: green;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 
+  .col-lg-1 {
+    width: 8.33%;
+    float: left;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+    float: left;
+  }
+  .col-lg-3 {
+    width: 25%;
+    float: left;
+  }
+  .col-lg-4 {
+    width: 31%;
+    float: left;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+    float: left;
+  }
+  .col-lg-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+    float: left;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+    float: left;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+    float: left;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+    float: left;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+    float: left;
+  }
+  .col-lg-12 {
+    width: 100%;
+    float: left;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 
+  .col-md-1 {
+    width: 8.33%;
+    float: left;
+  }
+  .col-md-2 {
+    width: 16.66%;
+    float: left;
+  }
+  .col-md-3 {
+    width: 25%;
+    float: left;
+  }
+  .col-md-4 {
+    width: 33.33%;
+    
+  }
+  .col-md-5 {
+    width: 41.66%;
+    float: left;
+  }
+  .col-md-6 {
+    width: 47%;
+    float: left;
+  }
+  .col-md-7 {
+    width: 58.33%;
+    float: left;
+  }
+  .col-md-8 {
+    width: 66.66%;
+    float: left;
+  }
+  .col-md-9 {
+    width: 74.99%;
+    float: left;
+  }
+  .col-md-10 {
+    width: 83.33%;
+    float: left;
+  }
+  .col-md-11 {
+    width: 91.66%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+   .col-sx-1, .col-sx-2, .col-sx-3, .col-sx-4, .col-sx-5, .col-sx-6, .col-sx-7, .col-sx-8, .col-sx-9, .col-sx-10, .col-sx-11, .col-sx-12 {
+  }
+  .col-sx-1 {
+    width: 8.33%;
+    float: left;
+  }
+  .col-sx-2 {
+    width: 16.66%;
+    float: left;
+  }
+  .col-sx-3 {
+    width: 25%;
+    float: left;
+  }
+  .col-sx-4 {
+    width: 33.33%;
+    float: left;
+  }
+  .col-sx-5 {
+    width: 41.66%;
+    float: left;
+  }
+  .col-sx-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-sx-7 {
+    width: 58.33%;
+    float: left;
+  }
+  .col-sx-8 {
+    width: 66.66%;
+    float: left;
+  }
+  .col-sx-9 {
+    width: 74.99%;
+    float: left;
+  }
+  .col-sx-10 {
+    width: 83.33%;
+    float: left;
+  }
+  .col-sx-11 {
+    width: 91.66%;
+    float: left;
+  }
+  .col-sx-12 {
+    width: 98%;
+    float: left;
+   }
+}
+</style>
